@@ -84,3 +84,15 @@ handler.wipe(<variable>)
 ```
 
 ## Easy Looping
+
+### Repeating Functions
+
+To repeat a function, use the repeat function:
+```python
+handler.repeat(<function>, <repeats>)
+```
+To repeat a function with a parameter, use the repeatParam function:
+```python
+handler.repeatParam(<function>, <parameter>, <repeats>)
+```
+Note: This only works with one parameter
